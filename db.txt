@@ -1,0 +1,48 @@
+user
+			id_user
+			id_role
+			nama_lengkap
+			email
+			no_hp
+			alamat
+			username
+			password
+			images
+
+role        id_role
+			nama_role
+
+artikel		id_artikel
+			id_kategori
+			judul
+			penulis
+			isi
+			tanggal
+			waktu
+			images
+
+kategori    id_kategori
+			nama_kategori
+
+pelanggan	id_pelanggan
+			nama_lengkap
+			email
+			no_hp
+			alamat
+			username
+			password
+			jenis_pet
+			umur_pet
+			jk_pet
+			penyakit_pet
+
+kepuasan	id_kepuasan
+			nama
+			pertanyaan
+			id_nilai
+			saran
+
+nilai		id_nilai
+			P
+			C
+			K
